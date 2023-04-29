@@ -1,5 +1,6 @@
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC8iryx8iCLMqTgexlGnJTeQ&part=snippet%2Cid&order=date&maxResults=2';
-const ApiKey = '8f7078fcdcmsh4dfac7fbd17828cp12c42cjsn007d510b97a6'
+let ApiKey = '8f7078fcdcmsh4dfac7fbd17828cp12c42cjsn007d510b97a6';
+// '8f7078fcdcmsh4dfac7fbd17828cp12c42cjsn007d510b97a6'
 const content = null || document.getElementById('content');
 
 const options = {
